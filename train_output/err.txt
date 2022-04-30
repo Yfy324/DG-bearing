@@ -1,0 +1,1089 @@
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/scipy/io/matlab/mio.py", line 39, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yfy/Desktop/Dataset/PACS/CWRU/12k Drive End Bearing Fault Data/97.mat'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 103, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 291, in get_data_loader
+    train_x['0'], train_y['0'] = domain_a.get_files()
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/imgdata/few_getloader.py", line 144, in get_files
+    data1, lab1 = self.data_load(path2, self.data[i], label=label[i])
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/imgdata/few_getloader.py", line 160, in data_load
+    fl = loadmat(filename)[realaxis]
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/scipy/io/matlab/mio.py", line 222, in loadmat
+    with _open_file_context(file_name, appendmat) as f:
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/scipy/io/matlab/mio.py", line 17, in _open_file_context
+    f, opened = _open_file(file_like, appendmat, mode)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/scipy/io/matlab/mio.py", line 45, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: '/home/yfy/Desktop/Dataset/PACS/CWRU/12k Drive End Bearing Fault Data/97.mat'
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 103, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 104, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 333, in get_data_loader
+    tedatalist.append(DataGenerate(args=args, domain_data=test_x[str(i)], labels=test_y[str(i)]))
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/imgdata/imgdataload.py", line 21, in __init__
+    self.normlizetype = args.normlizetype
+AttributeError: 'Namespace' object has no attribute 'normlizetype'
+Traceback (most recent call last):
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 106, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 336, in get_data_loader
+    if i in args.test_envs:     # 划分测试domain image_test(): 用于初始化图像数据
+AttributeError: 'Namespace' object has no attribute 'test_envs'
+Traceback (most recent call last):
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 106, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 373, in get_data_loader
+    for env in trdatalist]
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 373, in <listcomp>
+    for env in trdatalist]
+TypeError: __init__() got an unexpected keyword argument 'weights'
+/home/yfy/Desktop/my_project/DG-bearing/utils/FCutils.py:129: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  torch.nn.init.xavier_uniform(m.weight)
+Traceback (most recent call last):
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 158, in <module>
+    if acc_record['valid'] > best_valid_acc:
+KeyError: 'valid'
+/home/yfy/Desktop/my_project/DG-bearing/utils/FCutils.py:129: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  torch.nn.init.xavier_uniform(m.weight)
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 149, in <module>
+    algorithm, trloader) for count, trloader in enumerate(meta_test_loaders)]))
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 149, in <listcomp>
+    algorithm, trloader) for count, trloader in enumerate(meta_test_loaders)]))
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/modelopera.py", line 24, in accuracy
+    x = data[0].cuda().float()
+KeyboardInterrupt
+/home/yfy/Desktop/my_project/DG-bearing/utils/FCutils.py:129: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  torch.nn.init.xavier_uniform(m.weight)
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-1-7a7481a42fdd>", line 1, in <module>
+    pre_x=inner_net(xi)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/Desktop/my_project/DG-bearing/mymodels/CNN_1d.py", line 51, in forward
+    x = self.layer1(x)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 263, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 260, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA error: device-side assert triggered
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 40, in update
+    inner_opt.zero_grad()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 109, in <module>
+    algorithm = algorithm_class(args).cuda()   # 类似于实例化了对象
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 14, in __init__
+    super(MLDG, self).__init__(args)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/ERM.py", line 19, in __init__
+    self.featurizer = get_fea(args)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/modelopera.py", line 13, in get_fea
+    net = CNN()
+  File "/home/yfy/Desktop/my_project/DG-bearing/mymodels/CNN_1d.py", line 17, in __init__
+    nn.BatchNorm1d(),
+TypeError: __init__() missing 1 required positional argument: 'num_features'
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: cuda runtime error (710) : device-side assert triggered at /pytorch/aten/src/THC/generic/THCTensorMath.cu:29
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-3-21c3b5fbf38d>", line 1, in <module>
+    inner_net(xi)
+NameError: name 'inner_net' is not defined
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-4-48526b69a0e9>", line 1, in <module>
+    yi.data
+NameError: name 'yi' is not defined
+Traceback (most recent call last):
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/pydevd.py", line 1483, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-6-5ef07057be16>", line 1, in <module>
+    a = inner_net(xi)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/Desktop/my_project/DG-bearing/mymodels/CNN_1d.py", line 55, in forward
+    x = self.layer1(x)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 263, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 260, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA error: device-side assert triggered
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 38, in update
+    inner_obj = F.cross_entropy(inner_net(xi), yi)   # 计算(xi,yi)的loss
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 36, in update
+    inner_sch = get_scheduler(inner_opt, self.args)   # 优化策略
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 106, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 366, in get_data_loader
+    for env in mtedatalist]
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 366, in <listcomp>
+    for env in mtedatalist]
+AttributeError: 'Namespace' object has no attribute 'batch_size_metatest'
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 106, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 366, in get_data_loader
+    for env in mtedatalist]
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 366, in <listcomp>
+    for env in mtedatalist]
+AttributeError: 'Namespace' object has no attribute 'batch_size_metatest'
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 109, in <module>
+    algorithm = algorithm_class(args).cuda()   # 类似于实例化了对象
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 14, in __init__
+    super(MLDG, self).__init__(args)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/ERM.py", line 20, in __init__
+    self.classifier = classifier_homo(args.num_classes)
+TypeError: classifier_homo() missing 1 required positional argument: 'class_num'
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 109, in <module>
+    algorithm = algorithm_class(args).cuda()   # 类似于实例化了对象
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 14, in __init__
+    super(MLDG, self).__init__(args)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/ERM.py", line 20, in __init__
+    self.classifier = classifier_homo(args.num_classes)
+TypeError: classifier_homo() missing 1 required positional argument: 'class_num'
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: cuda runtime error (710) : device-side assert triggered at /pytorch/aten/src/THC/generic/THCTensorMath.cu:29
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 106, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 354, in get_data_loader
+    tmpdatay = DataGenerate(args=args, domain_data=train_x[str(i)], labels=train_y[str(i)],).labels
+KeyError: '1'
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 106, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 386, in get_data_loader
+    for env in mtedatalist]
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 386, in <listcomp>
+    for env in mtedatalist]
+AttributeError: 'Namespace' object has no attribute 'batch_size_metatest'
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 38, in update
+    inner_obj = F.cross_entropy(inner_net(xi), yi)   # 计算(xi,yi)的loss
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 149, in <module>
+    algorithm, trloader) for count, trloader in enumerate(meta_test_loaders)]))
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 149, in <listcomp>
+    algorithm, trloader) for count, trloader in enumerate(meta_test_loaders)]))
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/modelopera.py", line 27, in accuracy
+    p = network(x)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 201, in _forward_unimplemented
+    raise NotImplementedError
+NotImplementedError
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 38, in update
+    inner_obj = F.cross_entropy(inner_net(xi), yi)   # 计算(xi,yi)的loss
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 38, in update
+    inner_obj = F.cross_entropy(inner_net(xi), yi)   # 计算(xi,yi)的loss
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 38, in update
+    inner_obj = F.cross_entropy(inner_net(xi), yi)   # 计算(xi,yi)的loss
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 38, in update
+    inner_obj = F.cross_entropy(inner_net(xi), yi)   # 计算(xi,yi)的loss
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 42, in update
+    inner_opt.step()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/optim/optimizer.py", line 89, in wrapper
+    return func(*args, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/optim/sgd.py", line 117, in step
+    nesterov)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/optim/_functional.py", line 166, in sgd
+    buf = torch.clone(d_p).detach()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 109, in <module>
+    algorithm = algorithm_class(args).cuda()   # 类似于实例化了对象
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 14, in __init__
+    super(MLDG, self).__init__(args)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/ERM.py", line 20, in __init__
+    self.classifier = classifier_homo(64, 3)
+  File "/home/yfy/Desktop/my_project/DG-bearing/utils/FCutils.py", line 134, in classifier_homo
+    return model.cuda()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 491, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 409, in _apply
+    param_applied = fn(param)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 491, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 33, in update
+    inner_net = copy.deepcopy(self.network)    # deepcopy: 修改原对象，不会对复制的对象造成影响
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 268, in _reconstruct
+    def _reconstruct(x, memo, func, args,
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 49, in update
+    p_tgt.grad.data.add_(p_src.grad.data / num_mb)   # add_：加和，存到原向量中, network/tgt中的梯度原本为零的
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 33, in update
+    inner_net = copy.deepcopy(self.network)    # deepcopy: 修改原对象，不会对复制的对象造成影响
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 53, in update
+    loss_inner_j = F.cross_entropy(inner_net(xj), yj)   # 计算(xj,yj)的loss
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 897, in _call_impl
+    if bw_hook:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 33, in update
+    inner_net = copy.deepcopy(self.network)    # deepcopy: 修改原对象，不会对复制的对象造成影响
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 169, in deepcopy
+    rv = reductor(4)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 934, in __getattr__
+    def __getattr__(self, name: str) -> Union[Tensor, 'Module']:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 33, in update
+    inner_net = copy.deepcopy(self.network)    # deepcopy: 修改原对象，不会对复制的对象造成影响
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 183, in deepcopy
+    if y is not x:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 38, in update
+    inner_obj = F.cross_entropy(inner_net(xi), yi)   # 计算(xi,yi)的loss
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/Desktop/my_project/DG-bearing/mymodels/CNN_1d.py", line 64, in forward
+    x = self.layer5(x)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 41, in update
+    inner_obj.backward()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 147, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 55, in update
+    allow_unused=True)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/autograd/__init__.py", line 225, in grad
+    inputs, allow_unused, accumulate_grad=False)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 155, in <module>
+    algorithm, teloader) for count, teloader in enumerate(test_loaders)]))
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 155, in <listcomp>
+    algorithm, teloader) for count, teloader in enumerate(test_loaders)]))
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/modelopera.py", line 32, in accuracy
+    correct += (p.argmax(1).eq(y).float()).sum().item()  # 计算预测准确的个数，argmax(1): 对行操作，每行最大概率的索引
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 53, in update
+    loss_inner_j = F.cross_entropy(inner_net(xj), yj)   # 计算(xj,yj)的loss
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/Desktop/my_project/DG-bearing/mymodels/CNN_1d.py", line 59, in forward
+    x = self.layer1(x)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/normalization.py", line 170, in forward
+    return F.layer_norm(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 33, in update
+    inner_net = copy.deepcopy(self.network)    # deepcopy: 修改原对象，不会对复制的对象造成影响
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 159, in deepcopy
+    copier = getattr(x, "__deepcopy__", None)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 106, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 641, in get_data_loader
+    for env in mtedatalist]
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 641, in <listcomp>
+    for env in mtedatalist]
+AttributeError: 'Namespace' object has no attribute 'batch_size_metatest'
+Traceback (most recent call last):
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 130, in <module>
+    step_vals = algorithm.update(minibatches_device, opt, sch)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 33, in update
+    inner_net = copy.deepcopy(self.network)    # deepcopy: 修改原对象，不会对复制的对象造成影响
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 280, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 150, in deepcopy
+    y = copier(x, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 240, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 180, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 306, in _reconstruct
+    value = deepcopy(value, memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/copy.py", line 161, in deepcopy
+    y = copier(memo)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/parameter.py", line 32, in __deepcopy__
+    result = type(self)(self.data.clone(memory_format=torch.preserve_format), self.requires_grad)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 106, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 649, in get_data_loader
+    for env in mtedatalist]
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 649, in <listcomp>
+    for env in mtedatalist]
+AttributeError: 'Namespace' object has no attribute 'batch_size_metatest'
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 106, in <module>
+    train_loaders, meta_test_loaders, eval_loaders, test_loaders, domain_num = get_data_loader(args)  # 划分训练集和测试集loader，测试集=unseen域+0.2其他域，巧用索引进行split
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 649, in get_data_loader
+    for env in mtedatalist]
+  File "/home/yfy/Desktop/my_project/DG-bearing/datautil/getdataloader.py", line 649, in <listcomp>
+    for env in mtedatalist]
+AttributeError: 'Namespace' object has no attribute 'batch_size_metatest'
+Traceback (most recent call last):
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/IPython/core/interactiveshell.py", line 3343, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-2-23142cf4cb3b>", line 1, in <module>
+    runfile('/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py', wdir='/home/yfy/Desktop/my_project/DG-bearing')
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_bundle/pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "/usr/pycharm/pycharm-2021.3.1/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/yfy/Desktop/my_project/DG-bearing/main_MLDG.py", line 109, in <module>
+    algorithm = algorithm_class(args).cuda()   # 类似于实例化了对象
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/MLDG.py", line 14, in __init__
+    super(MLDG, self).__init__(args)
+  File "/home/yfy/Desktop/my_project/DG-bearing/alg/algs/ERM.py", line 20, in __init__
+    self.classifier = classifier_homo(64, 3)
+  File "/home/yfy/Desktop/my_project/DG-bearing/utils/FCutils.py", line 134, in classifier_homo
+    return model.cuda()
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 491, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 409, in _apply
+    param_applied = fn(param)
+  File "/home/yfy/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/module.py", line 491, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+RuntimeError: CUDA error: out of memory

@@ -1,0 +1,4046 @@
+
+ the test task
+0.9755892255892256
+
+ the test task
+0.6222222222222222
+
+ the test task
+0.7005937234944869
+
+ the test task
+0.7005937234944869
+
+ the test task
+0.7217981340118744
+
+ the test task
+0.7972858354537744
+
+ the test task
+0.7972858354537744
+
+ the test task
+0.7955894826123834
+
+ the test task
+0.7014418999151824
+
+ the test task
+0.7718405428329093
+
+ the test task
+0.7718405428329093
+
+ the test task
+0.4003392705682782
+
+ the test task
+0.8740740740740741
+
+ the test task
+0.7576719576719577
+
+ the test task
+0.7158608990670059
+
+ the test task
+0.7718405428329093
+
+ the test task
+0.7446988973706531
+
+ the test task
+0.8295165394402035
+
+ the test task
+0.9068783068783068
+
+ the test task
+0.28994708994708995
+
+ the test task
+0.2003610108303249
+
+ the test task
+0.20577617328519857
+
+ the test task
+0.18772563176895307
+
+ the test task
+0.36980491942324
+
+ the test task
+0.4071246819338422
+
+ the test task
+0.40966921119592875
+
+ the test task
+0.41051738761662426
+
+ the test task
+0.24681933842239187
+
+ the test task
+0.4011874469889737
+
+ the test task
+0.40882103477523324
+
+ the test task
+0.357311320754717
+
+ the test task
+0.23113207547169812
+
+ the test task
+0.357311320754717
+
+ the test task
+0.32075471698113206
+
+ the test task
+0.19693396226415094
+
+ the test task
+0.357311320754717
+
+ the test task
+0.357311320754717
+
+ the test task
+0.36556603773584906
+
+ the test task
+0.24056603773584906
+
+ the test task
+0.6329716856311194
+
+ the test task
+0.6713416247684573
+
+ the test task
+0.822375752172944
+
+ the test task
+0.8288388678404279
+
+ the test task
+0.7969690216180075
+
+ the test task
+0.8254958769779362
+
+ the test task
+0.31557833741921104
+
+ the test task
+0.8288388678404279
+
+ the test task
+0.8098952529529753
+
+ the test task
+0.8295074660129262
+
+ the test task
+0.8217071540004457
+
+ the test task
+0.2
+
+ the test task
+0.19
+
+ the test task
+0.22
+
+ the test task
+0.22
+
+ the test task
+0.2
+
+ the test task
+0.24846153846153846
+
+ the test task
+0.24846153846153846
+
+ the test task
+0.834307992202729
+
+ the test task
+0.8232618583495777
+
+ the test task
+0.8135152696556205
+
+ the test task
+0.7985705003248863
+
+ the test task
+0.8460038986354775
+
+ the test task
+0.38797169811320753
+
+ the test task
+0.3561320754716981
+
+ the test task
+0.34464751958224543
+
+ the test task
+0.8460038986354775
+
+ the test task
+0.8317089018843404
+
+ the test task
+0.8330084470435347
+
+ the test task
+0.8473034437946718
+
+ the test task
+0.8356075373619233
+
+ the test task
+0.8382066276803118
+
+ the test task
+0.8453541260558805
+
+ the test task
+0.8531513970110461
+
+ the test task
+0.8336582196231319
+
+ the test task
+0.8336582196231319
+
+ the test task
+0.8531513970110461
+
+ the test task
+0.8323586744639376
+
+ the test task
+0.8583495776478233
+
+ the test task
+0.8387305699481865
+
+ the test task
+0.8387305699481865
+
+ the test task
+0.8387305699481865
+
+ the test task
+0.8387305699481865
+
+ the test task
+0.8387305699481865
+
+ the test task
+0.8387305699481865
+
+ the test task
+0.8387305699481865
+
+ the test task
+0.8387305699481865
+
+ the test task
+0.358355091383812
+
+ the test task
+0.3160377358490566
+
+ the test task
+0.16273584905660377
+
+ the test task
+0.3160377358490566
+
+ the test task
+0.3160377358490566
+
+ the test task
+0.30424528301886794
+
+ the test task
+0.8583495776478233
+
+ the test task
+0.28307692307692306
+
+ the test task
+0.9806106529975485
+
+ the test task
+0.34050179211469533
+
+ the test task
+0.34050179211469533
+
+ the test task
+0.34050179211469533
+
+ the test task
+0.34946236559139787
+
+ the test task
+0.34587813620071683
+
+ the test task
+0.3154121863799283
+
+ the test task
+0.4068100358422939
+
+ the test task
+0.34408602150537637
+
+ the test task
+0.4068100358422939
+
+ the test task
+0.4787851719517642
+
+ the test task
+0.4497543546225994
+
+ the test task
+0.7477638640429338
+
+ the test task
+0.4776386404293381
+
+ the test task
+0.3782705099778271
+
+ the test task
+0.22261640798226165
+
+ the test task
+0.22882483370288248
+
+ the test task
+0.22749445676274946
+
+ the test task
+0.22749445676274946
+
+ the test task
+0.3578713968957871
+
+ the test task
+0.3401330376940133
+
+ the test task
+0.3259423503325942
+
+ the test task
+0.36274944567627493
+
+ the test task
+0.2792413066385669
+
+ the test task
+0.7737496692246626
+
+ the test task
+0.7671049699130822
+
+ the test task
+0.25180831826401445
+
+ the test task
+0.234
+
+ the test task
+0.25180831826401445
+
+ the test task
+0.25180831826401445
+
+ the test task
+0.24593128390596744
+
+ the test task
+0.2933996383363472
+
+ the test task
+0.96875
+
+ the test task
+0.6939571150097466
+
+ the test task
+0.8538011695906432
+
+ the test task
+0.8029294274300932
+
+ the test task
+0.33569844789356984
+
+ the test task
+0.5275310834813499
+
+ the test task
+0.34933333333333333
+
+ the test task
+0.5208888888888888
+
+ the test task
+0.4675496688741722
+
+ the test task
+0.3583148558758315
+
+ the test task
+0.30622222222222223
+
+ the test task
+0.2866666666666667
+
+ the test task
+0.2941952506596306
+
+ the test task
+0.3343680709534368
+
+ the test task
+0.31155555555555553
+
+ the test task
+0.2693333333333333
+
+ the test task
+0.33729111697449426
+
+ the test task
+0.7454545454545455
+
+ the test task
+0.5706666666666667
+
+ the test task
+0.6782222222222222
+
+ the test task
+0.7304309586631487
+
+ the test task
+0.7454545454545455
+
+ the test task
+0.5706666666666667
+
+ the test task
+0.6782222222222222
+
+ the test task
+0.7304309586631487
+
+ the test task
+0.6953436807095343
+
+ the test task
+0.6266666666666667
+
+ the test task
+0.6075555555555555
+
+ the test task
+0.6279683377308707
+
+ the test task
+0.6217294900221729
+
+ the test task
+0.6768888888888889
+
+ the test task
+0.5715555555555556
+
+ the test task
+0.6666666666666666
+
+ the test task
+0.7454545454545455
+
+ the test task
+0.5706666666666667
+
+ the test task
+0.6782222222222222
+
+ the test task
+0.7304309586631487
+
+ the test task
+0.7454545454545455
+
+ the test task
+0.5706666666666667
+
+ the test task
+0.6782222222222222
+
+ the test task
+0.7304309586631487
+
+ the test task
+0.653156146179402
+
+ the test task
+0.402
+
+ the test task
+0.5373333333333333
+
+ the test task
+0.6625
+
+ the test task
+0.38
+
+ the test task
+0.5782857142857143
+
+ the test task
+0.37093153759820424
+
+ the test task
+0.5902466367713004
+
+ the test task
+0.5764966740576497
+
+ the test task
+0.4746666666666667
+
+ the test task
+0.524
+
+ the test task
+0.5664028144239226
+
+ the test task
+0.7454545454545455
+
+ the test task
+0.5706666666666667
+
+ the test task
+0.6782222222222222
+
+ the test task
+0.7304309586631487
+
+ the test task
+0.6886917960088692
+
+ the test task
+0.6048888888888889
+
+ the test task
+0.6204444444444445
+
+ the test task
+0.7058047493403694
+
+ the test task
+0.6886917960088692
+
+ the test task
+0.6048888888888889
+
+ the test task
+0.6204444444444445
+
+ the test task
+0.7058047493403694
+
+ the test task
+0.7082039911308204
+
+ the test task
+0.6128888888888889
+
+ the test task
+0.6342222222222222
+
+ the test task
+0.7453825857519789
+
+ the test task
+0.7303769401330377
+
+ the test task
+0.6302222222222222
+
+ the test task
+0.6515555555555556
+
+ the test task
+0.7515391380826737
+
+ the test task
+0.6753880266075388
+
+ the test task
+0.6146666666666667
+
+ the test task
+0.6204444444444445
+
+ the test task
+0.7273526824978013
+
+ the test task
+0.6682926829268293
+
+ the test task
+0.5826666666666667
+
+ the test task
+0.6168888888888889
+
+ the test task
+0.7189973614775725
+
+ the test task
+0.7104212860310422
+
+ the test task
+0.6097777777777778
+
+ the test task
+0.6395555555555555
+
+ the test task
+0.7497801231310466
+
+ the test task
+0.7104212860310422
+
+ the test task
+0.6097777777777778
+
+ the test task
+0.6395555555555555
+
+ the test task
+0.7497801231310466
+
+ the test task
+0.7170731707317073
+
+ the test task
+0.6422222222222222
+
+ the test task
+0.6768888888888889
+
+ the test task
+0.7352682497801232
+
+ the test task
+0.3600886917960089
+
+ the test task
+0.35155555555555557
+
+ the test task
+0.3537777777777778
+
+ the test task
+0.3276165347405453
+
+ the test task
+0.7565714285714286
+
+ the test task
+0.748
+
+ the test task
+0.7031425364758698
+
+ the test task
+0.7802690582959642
+
+ the test task
+0.4754285714285714
+
+ the test task
+0.48742857142857143
+
+ the test task
+0.45398080180688877
+
+ the test task
+0.45352743561030234
+
+ the test task
+0.2752
+
+ the test task
+0.2208
+
+ the test task
+0.23446105428796224
+
+ the test task
+0.3377535101404056
+
+ the test task
+0.428
+
+ the test task
+0.3312
+
+ the test task
+0.3918174665617624
+
+ the test task
+0.4407176287051482
+
+ the test task
+0.46
+
+ the test task
+0.628
+
+ the test task
+0.45869394177812745
+
+ the test task
+0.592823712948518
+
+ the test task
+0.4528
+
+ the test task
+0.5736
+
+ the test task
+0.42722265932336745
+
+ the test task
+0.546801872074883
+
+ the test task
+0.6656
+
+ the test task
+0.6624
+
+ the test task
+0.6317859952793077
+
+ the test task
+0.6318252730109204
+
+ the test task
+0.4816
+
+ the test task
+0.472
+
+ the test task
+0.46026750590086546
+
+ the test task
+0.5186625194401244
+
+ the test task
+0.4816
+
+ the test task
+0.476
+
+ the test task
+0.45948072383949645
+
+ the test task
+0.5202808112324493
+
+ the test task
+0.676
+
+ the test task
+0.664
+
+ the test task
+0.6483946750195771
+
+ the test task
+0.7090483619344774
+
+ the test task
+0.512
+
+ the test task
+0.5504
+
+ the test task
+0.4956726986624705
+
+ the test task
+0.5085803432137286
+
+ the test task
+0.46267806267806266
+
+ the test task
+0.4377142857142857
+
+ the test task
+0.4542857142857143
+
+ the test task
+0.4209039548022599
+
+ the test task
+0.3296
+
+ the test task
+0.3768
+
+ the test task
+0.23131392604248624
+
+ the test task
+0.4547581903276131
+
+ the test task
+0.603988603988604
+
+ the test task
+0.5577142857142857
+
+ the test task
+0.49885714285714283
+
+ the test task
+0.6638418079096046
+
+ the test task
+0.6444444444444445
+
+ the test task
+0.5828571428571429
+
+ the test task
+0.5422857142857143
+
+ the test task
+0.6790960451977401
+
+ the test task
+0.3784
+
+ the test task
+0.4704
+
+ the test task
+0.2989771833202203
+
+ the test task
+0.5218408736349454
+
+ the test task
+0.3896
+
+ the test task
+0.4744
+
+ the test task
+0.3273296789350039
+
+ the test task
+0.5834633385335414
+
+ the test task
+0.5422857142857143
+
+ the test task
+0.5588571428571428
+
+ the test task
+0.47939017504234893
+
+ the test task
+0.6550951847704367
+
+ the test task
+0.7104212860310422
+
+ the test task
+0.6097777777777778
+
+ the test task
+0.6395555555555555
+
+ the test task
+0.7497801231310466
+
+ the test task
+0.7104212860310422
+
+ the test task
+0.6097777777777778
+
+ the test task
+0.6395555555555555
+
+ the test task
+0.7497801231310466
+
+ the test task
+0.6536585365853659
+
+ the test task
+0.6062222222222222
+
+ the test task
+0.5871111111111111
+
+ the test task
+0.6912928759894459
+
+ the test task
+0.5968957871396896
+
+ the test task
+0.6017777777777777
+
+ the test task
+0.5137777777777778
+
+ the test task
+0.6952506596306068
+
+ the test task
+0.6873614190687362
+
+ the test task
+0.6333333333333333
+
+ the test task
+0.6053333333333333
+
+ the test task
+0.7299912049252418
+
+ the test task
+0.624390243902439
+
+ the test task
+0.6688888888888889
+
+ the test task
+0.6306666666666667
+
+ the test task
+0.7080035180299032
+
+ the test task
+0.6536585365853659
+
+ the test task
+0.6062222222222222
+
+ the test task
+0.5871111111111111
+
+ the test task
+0.6912928759894459
+
+ the test task
+0.6873614190687362
+
+ the test task
+0.6333333333333333
+
+ the test task
+0.6053333333333333
+
+ the test task
+0.7299912049252418
+
+ the test task
+0.6864745011086475
+
+ the test task
+0.6248888888888889
+
+ the test task
+0.6044444444444445
+
+ the test task
+0.7242744063324539
+
+ the test task
+0.7104212860310422
+
+ the test task
+0.6097777777777778
+
+ the test task
+0.6395555555555555
+
+ the test task
+0.7497801231310466
+
+ the test task
+0.9391891891891891
+
+ the test task
+0.723200356585692
+
+ the test task
+0.723200356585692
+
+ the test task
+0.7089369289057277
+
+ the test task
+0.7457098283931357
+
+ the test task
+0.7033652774682416
+
+ the test task
+0.7443726320481391
+
+ the test task
+0.6982393581457544
+
+ the test task
+0.7091597949632271
+
+ the test task
+0.7212475633528265
+
+ the test task
+0.7080454646757299
+
+ the test task
+0.7200802317806998
+
+ the test task
+0.7376866503231558
+
+ the test task
+0.7223088923556942
+
+ the test task
+0.7272727272727273
+
+ the test task
+0.5422222222222223
+
+ the test task
+0.6204444444444445
+
+ the test task
+0.768249780123131
+
+ the test task
+0.6824833702882483
+
+ the test task
+0.4706666666666667
+
+ the test task
+0.58
+
+ the test task
+0.7110817941952506
+
+ the test task
+0.7272727272727273
+
+ the test task
+0.5422222222222223
+
+ the test task
+0.6204444444444445
+
+ the test task
+0.768249780123131
+
+ the test task
+0.7272727272727273
+
+ the test task
+0.5422222222222223
+
+ the test task
+0.6204444444444445
+
+ the test task
+0.768249780123131
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6071111111111112
+
+ the test task
+0.6346666666666667
+
+ the test task
+0.7893579595426561
+
+ the test task
+0.7144124168514412
+
+ the test task
+0.6053333333333333
+
+ the test task
+0.6413333333333333
+
+ the test task
+0.7409850483729111
+
+ the test task
+0.7241685144124168
+
+ the test task
+0.4186666666666667
+
+ the test task
+0.5995555555555555
+
+ the test task
+0.7752858399296394
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6071111111111112
+
+ the test task
+0.6346666666666667
+
+ the test task
+0.7893579595426561
+
+ the test task
+0.6882483370288248
+
+ the test task
+0.5462222222222223
+
+ the test task
+0.5835555555555556
+
+ the test task
+0.7524186455584873
+
+ the test task
+0.7325942350332594
+
+ the test task
+0.6026666666666667
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8082673702726473
+
+ the test task
+0.7330376940133038
+
+ the test task
+0.608
+
+ the test task
+0.6453333333333333
+
+ the test task
+0.8043095866314863
+
+ the test task
+0.7374722838137472
+
+ the test task
+0.6044444444444445
+
+ the test task
+0.6533333333333333
+
+ the test task
+0.8100263852242744
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6057777777777777
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.6882483370288248
+
+ the test task
+0.5422222222222223
+
+ the test task
+0.5848888888888889
+
+ the test task
+0.751099384344767
+
+ the test task
+0.729490022172949
+
+ the test task
+0.5702222222222222
+
+ the test task
+0.62
+
+ the test task
+0.7620932277924363
+
+ the test task
+0.7374722838137472
+
+ the test task
+0.5848888888888889
+
+ the test task
+0.6413333333333333
+
+ the test task
+0.8060686015831134
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6057777777777777
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.7028824833702882
+
+ the test task
+0.58
+
+ the test task
+0.5915555555555555
+
+ the test task
+0.7480211081794196
+
+ the test task
+0.6851441241685144
+
+ the test task
+0.5208888888888888
+
+ the test task
+0.5866666666666667
+
+ the test task
+0.7418645558487247
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6057777777777777
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.7339246119733924
+
+ the test task
+0.6062222222222222
+
+ the test task
+0.64
+
+ the test task
+0.7977132805628848
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6057777777777777
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.6989079563182528
+
+ the test task
+0.7294406061956764
+
+ the test task
+0.7338979273456653
+
+ the test task
+0.7122799197682192
+
+ the test task
+0.713617116113216
+
+ the test task
+0.7294406061956764
+
+ the test task
+0.5892700087950747
+
+ the test task
+0.5892700087950747
+
+ the test task
+0.8012313104661389
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.6989079563182528
+
+ the test task
+0.713617116113216
+
+ the test task
+0.8321818587029195
+
+ the test task
+0.7949632271005126
+
+ the test task
+0.8321818587029195
+
+ the test task
+0.8321818587029195
+
+ the test task
+0.8049921996879875
+
+ the test task
+0.803209271227992
+
+ the test task
+0.8172735346358793
+
+ the test task
+0.6505460218408736
+
+ the test task
+0.782010582010582
+
+ the test task
+0.7523324851569126
+
+ the test task
+0.8635593220338983
+
+ the test task
+0.841927303465765
+
+ the test task
+0.5978835978835979
+
+ the test task
+0.6039016115351993
+
+ the test task
+0.6008474576271187
+
+ the test task
+0.6027049873203719
+
+ the test task
+0.782010582010582
+
+ the test task
+0.7523324851569126
+
+ the test task
+0.8635593220338983
+
+ the test task
+0.841927303465765
+
+ the test task
+0.782010582010582
+
+ the test task
+0.7523324851569126
+
+ the test task
+0.8635593220338983
+
+ the test task
+0.841927303465765
+
+ the test task
+0.7481481481481481
+
+ the test task
+0.712468193384224
+
+ the test task
+0.7483050847457627
+
+ the test task
+0.7599323753169906
+
+ the test task
+0.798941798941799
+
+ the test task
+0.727735368956743
+
+ the test task
+0.8050847457627118
+
+ the test task
+0.7988165680473372
+
+ the test task
+0.7481481481481481
+
+ the test task
+0.712468193384224
+
+ the test task
+0.7483050847457627
+
+ the test task
+0.7599323753169906
+
+ the test task
+0.798941798941799
+
+ the test task
+0.727735368956743
+
+ the test task
+0.8050847457627118
+
+ the test task
+0.7988165680473372
+
+ the test task
+0.782010582010582
+
+ the test task
+0.7523324851569126
+
+ the test task
+0.8635593220338983
+
+ the test task
+0.841927303465765
+
+ the test task
+0.7481559536354057
+
+ the test task
+0.793918918918919
+
+ the test task
+0.790363482671175
+
+ the test task
+0.8156565656565656
+
+ the test task
+0.782010582010582
+
+ the test task
+0.7523324851569126
+
+ the test task
+0.8635593220338983
+
+ the test task
+0.841927303465765
+
+ the test task
+0.782010582010582
+
+ the test task
+0.7523324851569126
+
+ the test task
+0.8635593220338983
+
+ the test task
+0.841927303465765
+
+ the test task
+0.7481559536354057
+
+ the test task
+0.793918918918919
+
+ the test task
+0.790363482671175
+
+ the test task
+0.8156565656565656
+
+ the test task
+0.782010582010582
+
+ the test task
+0.7523324851569126
+
+ the test task
+0.8635593220338983
+
+ the test task
+0.841927303465765
+
+ the test task
+0.7544973544973544
+
+ the test task
+0.7404580152671756
+
+ the test task
+0.7542372881355932
+
+ the test task
+0.7937447168216399
+
+ the test task
+0.855026455026455
+
+ the test task
+0.7735368956743003
+
+ the test task
+0.8915254237288136
+
+ the test task
+0.8977176669484361
+
+ the test task
+0.6931216931216931
+
+ the test task
+0.7048346055979644
+
+ the test task
+0.7508474576271187
+
+ the test task
+0.738799661876585
+
+ the test task
+0.798941798941799
+
+ the test task
+0.727735368956743
+
+ the test task
+0.8050847457627118
+
+ the test task
+0.7988165680473372
+
+ the test task
+0.855026455026455
+
+ the test task
+0.7735368956743003
+
+ the test task
+0.8915254237288136
+
+ the test task
+0.8977176669484361
+
+ the test task
+0.855026455026455
+
+ the test task
+0.7735368956743003
+
+ the test task
+0.8915254237288136
+
+ the test task
+0.8977176669484361
+
+ the test task
+0.855026455026455
+
+ the test task
+0.7735368956743003
+
+ the test task
+0.8114406779661016
+
+ the test task
+0.767402376910017
+
+ the test task
+0.8370118845500849
+
+ the test task
+0.8460236886632826
+
+ the test task
+0.8305084745762712
+
+ the test task
+0.7623089983022071
+
+ the test task
+0.8539898132427843
+
+ the test task
+0.868020304568528
+
+ the test task
+0.8305084745762712
+
+ the test task
+0.8099273607748184
+
+ the test task
+0.7242841993637328
+
+ the test task
+0.8632025450689289
+
+ the test task
+0.8918005071851226
+
+ the test task
+0.6864406779661016
+
+ the test task
+0.6352067868504772
+
+ the test task
+0.6988335100742312
+
+ the test task
+0.7421808960270498
+
+ the test task
+0.8099273607748184
+
+ the test task
+0.7242841993637328
+
+ the test task
+0.8632025450689289
+
+ the test task
+0.8918005071851226
+
+ the test task
+0.8099273607748184
+
+ the test task
+0.7242841993637328
+
+ the test task
+0.8632025450689289
+
+ the test task
+0.8535108958837773
+
+ the test task
+0.7285259809119831
+
+ the test task
+0.8621420996818664
+
+ the test task
+0.8858350951374208
+
+ the test task
+0.7978208232445521
+
+ the test task
+0.721102863202545
+
+ the test task
+0.8176033934252386
+
+ the test task
+0.8446088794926004
+
+ the test task
+0.8184019370460048
+
+ the test task
+0.7168610816542949
+
+ the test task
+0.8579003181336161
+
+ the test task
+0.8868921775898521
+
+ the test task
+0.8075060532687651
+
+ the test task
+0.7062566277836692
+
+ the test task
+0.8504772004241782
+
+ the test task
+0.8636363636363636
+
+ the test task
+0.8535108958837773
+
+ the test task
+0.7285259809119831
+
+ the test task
+0.8621420996818664
+
+ the test task
+0.8858350951374208
+
+ the test task
+0.8535108958837773
+
+ the test task
+0.7285259809119831
+
+ the test task
+0.8621420996818664
+
+ the test task
+0.9957805907172996
+
+ the test task
+0.9831223628691983
+
+ the test task
+0.5944309927360775
+
+ the test task
+0.6440677966101694
+
+ the test task
+0.7675544794188862
+
+ the test task
+0.7941888619854721
+
+ the test task
+0.864693446088795
+
+ the test task
+0.8148148148148148
+
+ the test task
+0.8804418453541261
+
+ the test task
+0.24461538461538462
+
+ the test task
+0.19615384615384615
+
+ the test task
+0.21615384615384614
+
+ the test task
+0.7126385809312639
+
+ the test task
+0.604
+
+ the test task
+0.6404444444444445
+
+ the test task
+0.7387862796833773
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6057777777777777
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.2984
+
+ the test task
+0.3256
+
+ the test task
+0.26514555468135326
+
+ the test task
+0.4110764430577223
+
+ the test task
+0.2984
+
+ the test task
+0.3256
+
+ the test task
+0.26514555468135326
+
+ the test task
+0.4110764430577223
+
+ the test task
+0.3424
+
+ the test task
+0.3816
+
+ the test task
+0.25255704169944926
+
+ the test task
+0.4118564742589704
+
+ the test task
+0.524
+
+ the test task
+0.5944
+
+ the test task
+0.5161290322580645
+
+ the test task
+0.5483619344773791
+
+ the test task
+0.5312
+
+ the test task
+0.5784
+
+ the test task
+0.5224232887490166
+
+ the test task
+0.594383775351014
+
+ the test task
+0.38980044345898
+
+ the test task
+0.37466666666666665
+
+ the test task
+0.3671111111111111
+
+ the test task
+0.4230430958663149
+
+ the test task
+0.6774928774928775
+
+ the test task
+0.5177142857142857
+
+ the test task
+0.5651428571428572
+
+ the test task
+0.7706214689265537
+
+ the test task
+0.5492877492877493
+
+ the test task
+0.3062857142857143
+
+ the test task
+0.496
+
+ the test task
+0.631638418079096
+
+ the test task
+0.58005698005698
+
+ the test task
+0.22457142857142856
+
+ the test task
+0.4531428571428571
+
+ the test task
+0.6581920903954802
+
+ the test task
+0.6774928774928775
+
+ the test task
+0.5177142857142857
+
+ the test task
+0.5651428571428572
+
+ the test task
+0.7706214689265537
+
+ the test task
+0.6774928774928775
+
+ the test task
+0.5177142857142857
+
+ the test task
+0.5651428571428572
+
+ the test task
+0.7706214689265537
+
+ the test task
+0.6774928774928775
+
+ the test task
+0.5177142857142857
+
+ the test task
+0.5651428571428572
+
+ the test task
+0.7706214689265537
+
+ the test task
+0.6774928774928775
+
+ the test task
+0.5177142857142857
+
+ the test task
+0.5651428571428572
+
+ the test task
+0.7706214689265537
+
+ the test task
+0.6077396657871592
+
+ the test task
+0.551595744680851
+
+ the test task
+0.4362666666666667
+
+ the test task
+0.4709333333333333
+
+ the test task
+0.7142857142857143
+
+ the test task
+0.551595744680851
+
+ the test task
+0.4362666666666667
+
+ the test task
+0.4709333333333333
+
+ the test task
+0.7142857142857143
+
+ the test task
+0.625
+
+ the test task
+0.5365333333333333
+
+ the test task
+0.5530666666666667
+
+ the test task
+0.7622561939905114
+
+ the test task
+0.7157427937915742
+
+ the test task
+0.5728888888888889
+
+ the test task
+0.6453333333333333
+
+ the test task
+0.8148636763412489
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6057777777777777
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.5590425531914893
+
+ the test task
+0.3952
+
+ the test task
+0.46453333333333335
+
+ the test task
+0.6789667896678967
+
+ the test task
+0.8234672304439746
+
+ the test task
+0.7675544794188862
+
+ the test task
+0.6956521739130435
+
+ the test task
+0.8472958642629904
+
+ the test task
+0.8234672304439746
+
+ the test task
+0.7675544794188862
+
+ the test task
+0.6956521739130435
+
+ the test task
+0.8472958642629904
+
+ the test task
+0.8234672304439746
+
+ the test task
+0.7046004842615012
+
+ the test task
+0.633085896076352
+
+ the test task
+0.7571580063626723
+
+ the test task
+0.7621564482029598
+
+ the test task
+0.8196125907990315
+
+ the test task
+0.7168610816542949
+
+ the test task
+0.8568398727465536
+
+ the test task
+0.872093023255814
+
+ the test task
+0.8523002421307506
+
+ the test task
+0.7444326617179216
+
+ the test task
+0.8738069989395546
+
+ the test task
+0.8868921775898521
+
+ the test task
+0.7433414043583535
+
+ the test task
+0.6924708377518558
+
+ the test task
+0.7571580063626723
+
+ the test task
+0.7822410147991543
+
+ the test task
+0.7325942350332594
+
+ the test task
+0.6026666666666667
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8082673702726473
+
+ the test task
+0.7126385809312639
+
+ the test task
+0.6111111111111112
+
+ the test task
+0.648
+
+ the test task
+0.7519788918205804
+
+ the test task
+0.7126385809312639
+
+ the test task
+0.604
+
+ the test task
+0.6404444444444445
+
+ the test task
+0.7387862796833773
+
+ the test task
+0.7148558758314856
+
+ the test task
+0.6071111111111112
+
+ the test task
+0.648
+
+ the test task
+0.7497801231310466
+
+ the test task
+0.6891352549889135
+
+ the test task
+0.6146666666666667
+
+ the test task
+0.6302222222222222
+
+ the test task
+0.7299912049252418
+
+ the test task
+0.7361419068736141
+
+ the test task
+0.5968888888888889
+
+ the test task
+0.648
+
+ the test task
+0.7572559366754618
+
+ the test task
+0.670509977827051
+
+ the test task
+0.6213333333333333
+
+ the test task
+0.6071111111111112
+
+ the test task
+0.7321899736147758
+
+ the test task
+0.7361419068736141
+
+ the test task
+0.5968888888888889
+
+ the test task
+0.648
+
+ the test task
+0.7572559366754618
+
+ the test task
+0.7215077605321508
+
+ the test task
+0.584
+
+ the test task
+0.628
+
+ the test task
+0.7436235708003518
+
+ the test task
+0.7348115299334812
+
+ the test task
+0.5977777777777777
+
+ the test task
+0.66
+
+ the test task
+0.7673702726473175
+
+ the test task
+0.738359201773836
+
+ the test task
+0.5995555555555555
+
+ the test task
+0.6577777777777778
+
+ the test task
+0.7616534740545294
+
+ the test task
+0.7223946784922395
+
+ the test task
+0.6146666666666667
+
+ the test task
+0.6422222222222222
+
+ the test task
+0.7515391380826737
+
+ the test task
+0.6957871396895787
+
+ the test task
+0.6266666666666667
+
+ the test task
+0.6306666666666667
+
+ the test task
+0.7233948988566403
+
+ the test task
+0.8268765133171913
+
+ the test task
+0.7158006362672322
+
+ the test task
+0.8568398727465536
+
+ the test task
+0.8816067653276956
+
+ the test task
+0.716629711751663
+
+ the test task
+0.6115555555555555
+
+ the test task
+0.6368888888888888
+
+ the test task
+0.7480211081794196
+
+ the test task
+0.7246119733924612
+
+ the test task
+0.608
+
+ the test task
+0.6435555555555555
+
+ the test task
+0.7449428320140721
+
+ the test task
+0.6803874092009685
+
+ the test task
+0.6383881230116649
+
+ the test task
+0.6924708377518558
+
+ the test task
+0.6744186046511628
+
+ the test task
+0.7723970944309927
+
+ the test task
+0.6585365853658537
+
+ the test task
+0.8419936373276776
+
+ the test task
+0.8012684989429175
+
+ the test task
+0.8147699757869249
+
+ the test task
+0.6977730646871686
+
+ the test task
+0.8038176033934252
+
+ the test task
+0.8033826638477801
+
+ the test task
+0.8002421307506054
+
+ the test task
+0.6935312831389183
+
+ the test task
+0.7762460233297985
+
+ the test task
+0.7610993657505285
+
+ the test task
+0.8268765133171913
+
+ the test task
+0.6988335100742312
+
+ the test task
+0.8123011664899258
+
+ the test task
+0.8076109936575053
+
+ the test task
+0.7941888619854721
+
+ the test task
+0.689289501590668
+
+ the test task
+0.7985153764581124
+
+ the test task
+0.7949260042283298
+
+ the test task
+0.7941888619854721
+
+ the test task
+0.689289501590668
+
+ the test task
+0.7985153764581124
+
+ the test task
+0.7949260042283298
+
+ the test task
+0.7723970944309927
+
+ the test task
+0.6977730646871686
+
+ the test task
+0.7868504772004242
+
+ the test task
+0.7769556025369979
+
+ the test task
+0.8583535108958837
+
+ the test task
+0.7317073170731707
+
+ the test task
+0.8886532343584306
+
+ the test task
+0.9006342494714588
+
+ the test task
+0.8111380145278451
+
+ the test task
+0.8292682926829268
+
+ the test task
+0.88016967126193
+
+ the test task
+0.8509513742071881
+
+ the test task
+0.8219780219780219
+
+ the test task
+0.8456104944500504
+
+ the test task
+0.7663096397273612
+
+ the test task
+0.8658892128279884
+
+ the test task
+0.6734939759036145
+
+ the test task
+0.7025316455696202
+
+ the test task
+0.7420718816067653
+
+ the test task
+0.7371188222923238
+
+ the test task
+0.6734939759036145
+
+ the test task
+0.7025316455696202
+
+ the test task
+0.7420718816067653
+
+ the test task
+0.7371188222923238
+
+ the test task
+0.7796610169491526
+
+ the test task
+0.6903499469777307
+
+ the test task
+0.8038176033934252
+
+ the test task
+0.7864693446088795
+
+ the test task
+0.8147699757869249
+
+ the test task
+0.6977730646871686
+
+ the test task
+0.8038176033934252
+
+ the test task
+0.8033826638477801
+
+ the test task
+0.7325301204819277
+
+ the test task
+0.740506329113924
+
+ the test task
+0.7610993657505285
+
+ the test task
+0.7549947423764458
+
+ the test task
+0.7313253012048193
+
+ the test task
+0.7046413502109705
+
+ the test task
+0.7293868921775899
+
+ the test task
+0.6824395373291272
+
+ the test task
+0.6168674698795181
+
+ the test task
+0.6656118143459916
+
+ the test task
+0.678646934460888
+
+ the test task
+0.6614090431125131
+
+ the test task
+0.6746987951807228
+
+ the test task
+0.6434599156118144
+
+ the test task
+0.6828752642706131
+
+ the test task
+0.6561514195583596
+
+ the test task
+0.6168674698795181
+
+ the test task
+0.6656118143459916
+
+ the test task
+0.678646934460888
+
+ the test task
+0.6614090431125131
+
+ the test task
+0.744578313253012
+
+ the test task
+0.7289029535864979
+
+ the test task
+0.7780126849894292
+
+ the test task
+0.7939011566771819
+
+ the test task
+0.7215077605321508
+
+ the test task
+0.6004444444444444
+
+ the test task
+0.6248888888888889
+
+ the test task
+0.7480211081794196
+
+ the test task
+0.7210643015521064
+
+ the test task
+0.5204444444444445
+
+ the test task
+0.6151111111111112
+
+ the test task
+0.8131046613896218
+
+ the test task
+0.7210643015521064
+
+ the test task
+0.5204444444444445
+
+ the test task
+0.6151111111111112
+
+ the test task
+0.8131046613896218
+
+ the test task
+0.7157427937915742
+
+ the test task
+0.5728888888888889
+
+ the test task
+0.6453333333333333
+
+ the test task
+0.8148636763412489
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6057777777777777
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.2984
+
+ the test task
+0.3256
+
+ the test task
+0.26514555468135326
+
+ the test task
+0.4110764430577223
+
+ the test task
+0.42891566265060244
+
+ the test task
+0.37658227848101267
+
+ the test task
+0.3752642706131078
+
+ the test task
+0.3753943217665615
+
+ the test task
+0.42736077481840196
+
+ the test task
+0.3743372216330859
+
+ the test task
+0.3743372216330859
+
+ the test task
+0.3752642706131078
+
+ the test task
+0.5230769230769231
+
+ the test task
+0.4783047426841574
+
+ the test task
+0.46153846153846156
+
+ the test task
+0.46258503401360546
+
+ the test task
+0.33348115299334813
+
+ the test task
+0.34844444444444445
+
+ the test task
+0.33066666666666666
+
+ the test task
+0.32937554969217236
+
+ the test task
+0.37538871612616614
+
+ the test task
+0.4053333333333333
+
+ the test task
+0.37195931003980537
+
+ the test task
+0.4110075454948957
+
+ the test task
+0.45554445554445555
+
+ the test task
+0.3145
+
+ the test task
+0.4505
+
+ the test task
+0.41786600496277915
+
+ the test task
+0.3944
+
+ the test task
+0.3336
+
+ the test task
+0.3870967741935484
+
+ the test task
+0.3962558502340094
+
+ the test task
+0.738359201773836
+
+ the test task
+0.6057777777777777
+
+ the test task
+0.6564444444444445
+
+ the test task
+0.8122251539138082
+
+ the test task
+0.7401330376940133
+
+ the test task
+0.5982222222222222
+
+ the test task
+0.6902222222222222
+
+ the test task
+0.8043095866314863
+
+ the test task
+0.742350332594235
+
+ the test task
+0.704
+
+ the test task
+0.7377777777777778
+
+ the test task
+0.8161829375549692
+
+ the test task
+0.7445676274944567
+
+ the test task
+0.6942222222222222
+
+ the test task
+0.7422222222222222
+
+ the test task
+0.8078276165347406
+
+ the test task
+0.739689578713969
+
+ the test task
+0.696
+
+ the test task
+0.7328888888888889
+
+ the test task
+0.8087071240105541
+
+ the test task
+0.683370288248337
+
+ the test task
+0.6813333333333333
+
+ the test task
+0.6368888888888888
+
+ the test task
+0.7664907651715039
+
+ the test task
+0.7002217294900221
+
+ the test task
+0.588
+
+ the test task
+0.6284444444444445
+
+ the test task
+0.7251539138082673
+
+ the test task
+0.7445676274944567
+
+ the test task
+0.6942222222222222
+
+ the test task
+0.7422222222222222
+
+ the test task
+0.8078276165347406
+
+ the test task
+0.7086474501108647
+
+ the test task
+0.6182222222222222
+
+ the test task
+0.64
+
+ the test task
+0.7423043095866315
+
+ the test task
+0.8813559322033898
+
+ the test task
+0.7348886532343585
+
+ the test task
+0.88016967126193
+
+ the test task
+0.8911205073995772
+
+ the test task
+0.7609756097560976
+
+ the test task
+0.6413333333333333
+
+ the test task
+0.6866666666666666
+
+ the test task
+0.7669305189094108
+
+ the test task
+0.7445676274944567
+
+ the test task
+0.6942222222222222
+
+ the test task
+0.7422222222222222
+
+ the test task
+0.8078276165347406
+
+ the test task
+0.8256658595641646
+
+ the test task
+0.6850477200424178
+
+ the test task
+0.8229056203605515
+
+ the test task
+0.846723044397463
+
+ the test task
+0.8668280871670703
+
+ the test task
+0.7179215270413574
+
+ the test task
+0.865323435843054
+
+ the test task
+0.8826638477801269
+
+ the test task
+0.8365617433414043
+
+ the test task
+0.7094379639448568
+
+ the test task
+0.8610816542948038
+
+ the test task
+0.8678646934460887
+
+ the test task
+0.847457627118644
+
+ the test task
+0.711558854718982
+
+ the test task
+0.8525980911983033
+
+ the test task
+0.8678646934460887
+
+ the test task
+0.8680387409200968
+
+ the test task
+0.7051961823966065
+
+ the test task
+0.8589607635206787
+
+ the test task
+0.8773784355179705
+
+ the test task
+0.8329297820823245
+
+ the test task
+0.7051961823966065
+
+ the test task
+0.8547189819724285
+
+ the test task
+0.8403805496828752
+
+ the test task
+0.8329297820823245
+
+ the test task
+0.7051961823966065
+
+ the test task
+0.8547189819724285
+
+ the test task
+0.8403805496828752
+
+ the test task
+0.847457627118644
+
+ the test task
+0.7009544008483564
+
+ the test task
+0.8589607635206787
+
+ the test task
+0.8636363636363636
+
+ the test task
+0.8668280871670703
+
+ the test task
+0.7179215270413574
+
+ the test task
+0.865323435843054
+
+ the test task
+0.8826638477801269
+
+ the test task
+0.8668280871670703
+
+ the test task
+0.7179215270413574
+
+ the test task
+0.865323435843054
+
+ the test task
+
+ the test task
+0.8668280871670703
+
+ the test task
+0.7179215270413574
+
+ the test task
+0.865323435843054
+
+ the test task
+0.8826638477801269
+
+ the test task
+0.7053191489361702
+
+ the test task
+0.6490666666666667
+
+ the test task
+0.6933333333333334
+
+ the test task
+0.8075909330521877
+
+ the test task
+0.7074468085106383
+
+ the test task
+0.6490666666666667
+
+ the test task
+0.6949333333333333
+
+ the test task
+0.804955192409067
+
+ the test task
+0.742350332594235
+
+ the test task
+0.704
+
+ the test task
+0.7377777777777778
+
+ the test task
+0.8161829375549692
+
+ the test task
+0.48514412416851443
+
+ the test task
+0.6022222222222222
+
+ the test task
+0.4431111111111111
+
+ the test task
+0.5523306948109059
+
+ the test task
+0.5073170731707317
+
+ the test task
+0.6026666666666667
+
+ the test task
+0.4608888888888889
+
+ the test task
+0.5716798592788038
+
+ the test task
+0.7472283813747228
+
+ the test task
+0.5937777777777777
+
+ the test task
+0.708
+
+ the test task
+0.7216358839050132
+
+ the test task
+0.7031914893617022
+
+ the test task
+0.5498666666666666
+
+ the test task
+0.5978666666666667
+
+ the test task
+0.7395888244596732
+
+ the test task
+0.6234042553191489
+
+ the test task
+0.5445333333333333
+
+ the test task
+0.5154255319148936
+
+ the test task
+0.6962025316455697
+
+ the test task
+0.6819148936170213
+
+ the test task
+0.5296
+
+ the test task
+0.5872
+
+ the test task
+0.7443331576172905
+
+ the test task
+0.6819148936170213
+
+ the test task
+0.5296
+
+ the test task
+0.5872
+
+ the test task
+0.7443331576172905
+
+ the test task
+0.7445676274944567
+
+ the test task
+0.6942222222222222
+
+ the test task
+0.7422222222222222
+
+ the test task
+0.8078276165347406
+
+ the test task
+0.7445676274944567
+
+ the test task
+0.6942222222222222
+
+ the test task
+0.7422222222222222
+
+ the test task
+0.7445676274944567
+
+ the test task
+0.6942222222222222
+
+ the test task
+0.7422222222222222
+
+ the test task
+0.8078276165347406
+
+ the test task
+0.7445676274944567
+
+ the test task
+0.6942222222222222
+
+ the test task
+0.7422222222222222
+
+ the test task
+0.8078276165347406
+
+ the test task
+0.24455205811138014
+
+ the test task
+0.28950159066808057
+
+ the test task
+0.30858960763520676
+
+ the test task
+0.313953488372093
+
+ the test task
+0.8668280871670703
+
+ the test task
+0.7179215270413574
+
+ the test task
+0.865323435843054
+
+ the test task
+0.8826638477801269
+
+ the test task
+0.6740050804403048
+
+ the test task
+0.5555555555555556
+
+ the test task
+0.5685670261941448
+
+ the test task
+0.6420323325635104
+
+ the test task
+0.6672311600338696
+
+ the test task
+0.5254629629629629
+
+ the test task
+0.551617873651772
+
+ the test task
+0.6204772902232486
+
+ the test task
+0.6773920406435224
+
+ the test task
+0.6111111111111112
+
+ the test task
+0.6055469953775039
+
+ the test task
+0.651270207852194
+
+ the test task
+0.47671464860287893
+
+ the test task
+0.42901234567901236
+
+ the test task
+0.3713405238828968
+
+ the test task
+0.3887605850654349
+
+ the test task
+0.6460626587637596
+
+ the test task
+0.5007716049382716
+
+ the test task
+0.5608628659476117
+
+ the test task
+0.6012317167051578
+
+ the test task
+0.6435224386113463
+
+ the test task
+0.6126543209876543
+
+ the test task
+0.5755007704160247
+
+ the test task
+0.6189376443418014
+
+ the test task
+0.6350550381033023
+
+ the test task
+0.49228395061728397
+
+ the test task
+0.5454545454545454
+
+ the test task
+0.5350269438029254
+
+ the test task
+0.5427603725656224
+
+ the test task
+0.3603395061728395
+
+ the test task
+0.3798151001540832
+
+ the test task
+0.4103156274056967
+
+ the test task
+0.5876375952582558
+
+ the test task
+0.4660493827160494
+
+ the test task
+0.522342064714946
+
+ the test task
+0.49345650500384913
+
+ the test task
+0.3539373412362405
+
+ the test task
+0.30478395061728397
+
+ the test task
+0.3089368258859784
+
+ the test task
+0.3233256351039261
+
+ the test task
+0.8523002421307506
+
+ the test task
+0.7062566277836692
+
+ the test task
+0.8292682926829268
+
+ the test task
+0.8319238900634249
+
+ the test task
+0.8263736263736263
+
+ the test task
+0.8456104944500504
+
+ the test task
+0.7731256085686465
+
+ the test task
+0.7628765792031098
+
+ the test task
+0.7046004842615012
+
+ the test task
+0.5164369034994698
+
+ the test task
+0.6511134676564156
+
+ the test task
+0.6680761099365751
+
+ the test task
+0.549636803874092
+
+ the test task
+0.6214209968186638
+
+ the test task
+0.616118769883351
+
+ the test task
+0.5983086680761099
+
+ the test task
+0.7046004842615012
+
+ the test task
+0.5164369034994698
+
+ the test task
+0.6511134676564156
+
+ the test task
+0.6680761099365751
+
+ the test task
+0.7142857142857143
+
+ the test task
+0.5758218451749735
+
+ the test task
+0.7051961823966065
+
+ the test task
+0.7304439746300211
+
+ the test task
+0.8304093567251462
+
+ the test task
+0.20384615384615384
+
+ the test task
+0.24615384615384617
+
+ the test task
+0.2423076923076923
+
+ the test task
+0.2423076923076923
+
+ the test task
+0.24005424954792043
+
+ the test task
+0.6418289585097375
+
+ the test task
+0.4714506172839506
+
+ the test task
+0.5500770416024653
+
+ the test task
+0.5458044649730562
+
+ the test task
+0.7550432276657061
+
+ the test task
+0.7829351535836178
+
+ the test task
+0.7315123251165889
+
+ the test task
+0.682845744680851
+
+ the test task
+0.615580016934801
+
+ the test task
+0.4799382716049383
+
+ the test task
+0.5408320493066255
+
+ the test task
+0.5173210161662818
+
+ the test task
+0.6333615580016935
+
+ the test task
+0.4699074074074074
+
+ the test task
+0.5308166409861325
+
+ the test task
+0.5535026943802925
+
+ the test task
+0.5850973751058425
+
+ the test task
+0.5030864197530864
+
+ the test task
+0.5130970724191063
+
+ the test task
+0.5188606620477291
+
+ the test task
+0.8219623131903834
+
+ the test task
+0.8283678756476683
+
+ the test task
+0.8158096699923254
+
+ the test task
+0.782642089093702
+
+ the test task
+0.7021791767554479
+
+ the test task
+0.6436903499469777
+
+ the test task
+0.7391304347826086
+
+ the test task
+0.7653276955602537
+
+ the test task
+0.967032967032967
+
+ the test task
+0.8456104944500504
+
+ the test task
+0.8111002921129503
+
+ the test task
+0.8522837706511176
+
+ the test task
+0.6602409638554216
+
+ the test task
+0.6740506329113924
+
+ the test task
+0.6892177589852009
+
+ the test task
+0.6961093585699264
+
+ the test task
+0.967032967032967
+
+ the test task
+0.8456104944500504
+
+ the test task
+0.8111002921129503
+
+ the test task
+0.8522837706511176
+
+ the test task
+0.6602409638554216
+
+ the test task
+0.6740506329113924
+
+ the test task
+0.6892177589852009
+
+ the test task
+0.6961093585699264
+
+ the test task
+0.8196125907990315
+
+ the test task
+0.6744432661717922
+
+ the test task
+0.7592788971367974
+
+ the test task
+0.7632135306553911
+
+ the test task
+0.8256658595641646
+
+ the test task
+0.6850477200424178
+
+ the test task
+0.8324496288441146
+
+ the test task
+0.8625792811839323
+
+ the test task
+0.6602409638554216
+
+ the test task
+0.6740506329113924
+
+ the test task
+0.6892177589852009
+
+ the test task
+0.6961093585699264
+
+ the test task
+0.6602409638554216
+
+ the test task
+0.6740506329113924
+
+ the test task
+0.6892177589852009
+
+ the test task
+0.6961093585699264
+
+ the test task
+0.7130750605326877
+
+ the test task
+0.6659597030752916
+
+ the test task
+0.7306468716861082
+
+ the test task
+0.7357293868921776
+
+ the test task
+0.8196125907990315
+
+ the test task
+0.967032967032967
+
+ the test task
+0.8456104944500504
+
+ the test task
+0.8111002921129503
+
+ the test task
+0.8522837706511176
+
+ the test task
+0.8196125907990315
+
+ the test task
+0.6602409638554216
+
+ the test task
+0.6740506329113924
+
+ the test task
+0.6892177589852009
+
+ the test task
+0.6961093585699264
+
+ the test task
+0.7130750605326877
+
+ the test task
+0.6659597030752916
+
+ the test task
+0.7306468716861082
+
+ the test task
+0.7357293868921776
+
+ the test task
+0.7934065934065934
+
+ the test task
+0.8173562058526741
+
+ the test task
+0.7400194741966893
+
+ the test task
+0.8066083576287658
+
+ the test task
+0.8486682808716707
+
+ the test task
+0.7720042417815483
+
+ the test task
+0.8377518557794273
+
+ the test task
+0.8509513742071881
+
+ the test task
+0.7934065934065934
+
+ the test task
+0.8173562058526741
+
+ the test task
+0.7400194741966893
+
+ the test task
+0.8066083576287658
+
+ the test task
+0.7203389830508474
+
+ the test task
+0.6193001060445387
+
+ the test task
+0.6776246023329798
+
+ the test task
+0.6945031712473573
+
+ the test task
+0.9626373626373627
+
+ the test task
+0.8768920282542886
+
+ the test task
+0.8442064264849075
+
+ the test task
+0.8833819241982507
+
+ the test task
+0.7457627118644068
+
+ the test task
+0.672322375397667
+
+ the test task
+0.7476139978791092
+
+ the test task
+0.7642706131078224
+
+ the test task
+0.7493946731234867
+
+ the test task
+0.6214209968186638
+
+ the test task
+0.7104984093319194
+
+ the test task
+0.7378435517970402
+
+ the test task
+0.8002421307506054
+
+ the test task
+0.7147401908801697
+
+ the test task
+0.7698833510074231
+
+ the test task
+0.7843551797040169
+
+ the test task
+0.9208791208791208
+
+ the test task
+0.8768920282542886
+
+ the test task
+0.8685491723466408
+
+ the test task
+0.8542274052478134
+
+ the test task
+0.7457627118644068
+
+ the test task
+0.672322375397667
+
+ the test task
+0.7476139978791092
+
+ the test task
+0.7642706131078224
+
+ the test task
+0.6412416851441242
+
+ the test task
+0.7031111111111111
+
+ the test task
+0.5982222222222222
+
+ the test task
+0.6547933157431838
+
+ the test task
+0.7272727272727273
+
+ the test task
+0.5502222222222222
+
+ the test task
+0.6204444444444445
+
+ the test task
+0.7695690413368513
+
+ the test task
+0.738498789346247
+
+ the test task
+0.7179215270413574
+
+ the test task
+0.7444326617179216
+
+ the test task
+0.7579281183932347
+
+ the test task
+0.7230769230769231
+
+ the test task
+0.9091826437941474
+
+ the test task
+0.8977604673807206
+
+ the test task
+0.8493683187560739
+
+ the test task
+0.851089588377724
+
+ the test task
+0.7104984093319194
+
+ the test task
+0.8282078472958643
+
+ the test task
+0.8414376321353065
+
+ the test task
+0.7869249394673123
+
+ the test task
+0.7094379639448568
+
+ the test task
+0.8621420996818664
+
+ the test task
+0.8498942917547568
+
+ the test task
+0.8268765133171913
+
+ the test task
+0.7094379639448568
+
+ the test task
+0.7645811240721103
+
+ the test task
+0.7727272727272727
+
+ the test task
+0.788135593220339
+
+ the test task
+0.679745493107105
+
+ the test task
+0.7698833510074231
+
+ the test task
+0.7558139534883721
+
+ the test task
+0.9152542372881356
+
+ the test task
+0.8218451749734889
+
+ the test task
+0.8271474019088016
+
+ the test task
+0.7928118393234672
+
+ the test task
+0.6404358353510896
+
+ the test task
+0.6288441145281018
+
+ the test task
+0.6638388123011665
+
+ the test task
+0.6448202959830867
+
+ the test task
+0.8389830508474576
+
+ the test task
+0.7051961823966065
+
+ the test task
+0.8547189819724285
+
+ the test task
+0.8382663847780126
+
+ the test task
+0.736144578313253
+
+ the test task
+0.7626582278481012
+
+ the test task
+0.781183932346723
+
+ the test task
+0.7928496319663512
+
+ the test task
+0.851089588377724
+
+ the test task
+0.7104984093319194
+
+ the test task
+0.8282078472958643
+
+ the test task
+0.8414376321353065
+
+ the test task
+0.5432276657060519
+
+ the test task
+0.4976109215017065
+
+ the test task
+0.4536975349766822
+
+ the test task
+0.5378989361702128
+
+ the test task
+0.49279538904899134
+
+ the test task
+0.4491467576791809
+
+ the test task
+0.40706195869420386
+
+ the test task
+0.47938829787234044
+
+ the test task
+0.833211944646759
+
+ the test task
+0.688255033557047
+
+ the test task
+0.6467162730507926
+
+ the test task
+0.6709802652863152
+
+ the test task
+0.9736263736263736
+
+ the test task
+0.8950554994954592
+
+ the test task
+0.8500486854917235
+
+ the test task
+0.8717201166180758
+
+ the test task
+0.7009685230024213
+
+ the test task
+0.6246023329798516
+
+ the test task
+0.7221633085896076
+
+ the test task
+0.7177589852008457
+
+ the test task
+0.7457627118644068
+
+ the test task
+0.672322375397667
+
+ the test task
+0.7476139978791092
+
+ the test task
+0.7642706131078224
+
+ the test task
+0.9208791208791208
+
+ the test task
+0.8768920282542886
+
+ the test task
+0.8685491723466408
+
+ the test task
+0.8542274052478134
+
+ the test task
+0.4615662215806568
+
+ the test task
+0.3948033201010466
+
+ the test task
+0.31156569630212433
+
+ the test task
+0.3622222222222222
+
+ the test task
+0.5977777777777777
+
+ the test task
+0.401330376940133
+
+ the test task
+0.43555555555555553
+
+ the test task
+0.3791111111111111
+
+ the test task
+0.4683377308707124
+
+ the test task
+0.7463414634146341
+
+ the test task
+0.6328888888888888
+
+ the test task
+0.6995555555555556
+
+ the test task
+0.8104661389621812
+
+ the test task
+0.49382716049382713
+
+ the test task
+0.5523882896764253
+
+ the test task
+0.8125960061443932
+
+ the test task
+0.8156082631981637
